@@ -1,5 +1,12 @@
 # LIO-SAM (modified for CVUT comrob lab needs)
+developed to run with CVUT [bringup package](https://github.com/graphSLAM-thesis-cvut/localization-bringup).<br/> <br/>
 
+Modifications: <br/>
+- Allow pcl with no `ring` field (ouster pcl). Calculate a ring from the position in the imput matrix;
+- Compilation under noetic. Change several imports and compiler in `CMakeLists.txt`;
+
+
+# ORIGINAL README
 **A real-time lidar-inertial odometry package. We strongly recommend the users read this document thoroughly and test the package with the provided dataset first. A video of the demonstration of the method can be found on [YouTube](https://www.youtube.com/watch?v=A0H8CoORZJU).**
 
 <p align='center'>
